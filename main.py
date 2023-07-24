@@ -1,18 +1,6 @@
 import os
 import shutil
-import sys
 from tqdm import tqdm
-
-
-def print_with_update(item_path):
-    line_length = 100  # Define o comprimento da linha que você deseja utilizar
-
-    # Preenche a string com espaços adicionais, se necessário
-    item_path_padded = item_path.ljust(line_length)[:line_length]
-
-    # Imprime a linha atualizando o conteúdo anterior
-    sys.stdout.write('      Working on --> ' + item_path_padded + '\r')
-    sys.stdout.flush()
 
 
 directory = 'Estudo'
