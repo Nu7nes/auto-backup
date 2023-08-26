@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 
 directory = 'Estudo'
-source_directory = f'C:/Users/jessica/Documents/{directory}'
+source_directory = f'C:/Users/.../Documents/{directory}'
 destination_directory = f'D:/{directory}'
 folders_to_ignore = ['node_modules', '.git', '.tmp.driveupload', 'venv']
 
